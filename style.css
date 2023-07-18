@@ -72,3 +72,67 @@ a {
     color: #f9faf8;
     margin: 100px 64px;
 }
+
+.secondSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.secondSection .headline {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    margin: 32px;
+}
+
+.secondSection .container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.cardImage {
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+    border: 2px solid #3882f6;
+    margin-bottom: 16px;
+}
+
+.thirdSection {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #e5e7eb
+}
+
+.thirdSection .container {
+    display: flex;
+    flex-direction: column;
+    padding: 0 250px;
+}
+
+.quote {
+    font-style: italic;
+    font-size: 36px;
+    color: #1f2937;
+    align-self: flex-start;
+}
+
+.quoteAttribution {
+    align-self: flex-end;
+    margin-left: auto;
+    font-weight: 600;
+}
+
